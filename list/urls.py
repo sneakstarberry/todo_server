@@ -9,5 +9,7 @@ router.register('todo', views.TodoViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
+    # path('todo/', views.TodoViewSet.as_view(), name="todo")
 ]
 
+# urlpatterns = format_suffix_patterns(urlpatterns)

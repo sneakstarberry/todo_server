@@ -5,4 +5,3 @@ class TodoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Todo
         fields = '__all__'
-        # write_only_fields = ('title',)
